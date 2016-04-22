@@ -31,13 +31,15 @@
           <hr>
         </div>
       </div>
-      <picture>
         <div class="row">
           <div class"col-md-12">
-            <img class="img-responsive main-img center-block" src="img/spacemain.jpg" alt="main img">
+            <picture>
+              <source class="img-responsive main-img center-block" srcset="img/main411.jpg" media="(max-width: 411px)">
+              <source class="img-responsive main-img center-block" srcset="img/main768.jpg" media="(max-width: 768px)">
+              <img class="img-responsive main-img center-block" alt="main image" src="img/spacemain.jpg">
+            </picture>
           </div>
         </div>
-      </picture>
       <section>
         <div class="row">
           <div class="col-md-12">
