@@ -1,6 +1,6 @@
 body {
   font-family: "Lato", sans-serif;
-  color: #747704;
+  color: darkslategray;
   font-weight: 300;
 }
 
@@ -12,7 +12,7 @@ hr {
 }
 
 .text-muted {
-  color: #bcbbbb;
+  color: lightslategray;
 }
 
 .text-thin {
