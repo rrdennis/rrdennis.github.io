@@ -1,1 +1,155 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ryan Dennis</title>
+    <script src="js/jquery-2.2.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,100" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="row">
+          <div class="col-md-6">
+            <a href="mailto:rrdennis@gmail.com">
+              <img class="title-logo" src="img/mars.jpg" alt="logo">
+            </a>
+          </div>
+          <div class="col-md-6 text-right text-uppercase">
+            <h1 class="title-super text-thin">Ryan Dennis</h1>
+            <h4>Front-end Space Ninja</h4>
+          </div>
+        </div>
+      </header>
+      <div class="row">
+        <div class="col-md-12">
+          <hr>
+        </div>
+      </div>
+      <picture>
+        <div class="row">
+          <div class"col-md-12">
+            <img class="img-responsive center-block main-img" src="img/spacemain.jpg" alt="main img">
+          </div>
+        </div>
+      </picture>
+      <section>
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="text-muted">Featured Work</h2>
+          </div>
+        </div>
+        <div class="row text-center">
+          <article>
+            <div class="col-md-4">
+              <img class="img-responsive center-block" src="img/space1.jpg" alt="Arcade Game" data-toggle="modal" data-target="#game">
+              <h3 class="text-uppercase">Arcade Game</h3>
+              <p><a href="https://rrdennis.github.io/game">https://rrdennis.github.io/game</a></p>
+            </div>
+          </article>
+          <article>
+            <div class="col-md-4">
+              <img class="img-responsive center-block" src="img/space.jpg" alt="Neighborhood Map" data-toggle="modal" data-target="#map">
+              <h3 class="text-uppercase">Neighborhood Map</h3>
+              <p><a href="https://rrdennis.github.io/map">https://rrdennis.github.io/map</a></p>
+            </div>
+          </article>
+          <article>
+            <div class="col-md-4">
+              <img class="img-responsive center-block" src="img/space2.jpg" alt="Health Tracker" data-toggle="modal" data-target="#tracker">
+              <h3 class="text-uppercase">Health Tracker</h3>
+              <p><a href="https://rrdennis.github.io/tracker">https://rrdennis.github.io/tracker</a></p>
+            </div>
+          </article>
+        </div>
+      </section>
+      <div class="row">
+        <div class="col-md-12">
+          <hr>
+        </div>
+      </div>
+      <footer>
+        <div class="row footer">
+          <div class="col-md-12 text-center">
+            <a href="https://github.com">
+              <img class="footer-social" src="img/social-1_logo-github.svg" alt="github">
+            </a>
+            <a href="https://www.pinterest.com">
+              <img class="footer-social" src="img/social-1_logo-pinterest.svg" alt="">
+            </a>
+            <a href="https://plus.google.com">
+              <img class="footer-social" src="img/social-1_logo-google-plus.svg" alt="google plus">
+            </a>
+            <a href="https://twitter.com">
+              <img class="footer-social" src="img/social-1_logo-twitter.svg" alt="twitter">
+            </a>
+            <a href="https://www.tumblr.com">
+              <img class="footer-social" src="img/social-1_logo-tumblr.svg" alt="tumblr">
+            </a>
+            <a href="https://www.instagram.com">
+              <img class="footer-social" src="img/social-1_logo-instagram.svg" alt="">
+            </a>
+            <a href="https://www.facebook.com">
+              <img class="footer-social" src="img/social-1_logo-facebook.svg" alt="facebook">
+            </a>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <div class="modal fade" id="game" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title text-center" id="myModalLabel">Arcade Game</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive center-block" src="img/space1.jpg" alt="Arcade Game">
+            This is a placeholder for the Arcade Game project I will complete as a part of the Front-End Web Developer Nanodegree at Udacity. When I work on this project, I'll learn valuable skills I'll need to create beautiful and responsive websites. Also, arcade games are super fun. Who doesn't like to play arcade games?
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="map" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title text-center" id="myModalLabel">Neighborhood Map</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive center-block" src="img/space.jpg" alt="Neighborhood Map">
+            This is a placeholder for the Neighborhood Map project I will complete as a part of the Front-End Web Developer Nanodegree at Udacity. When I work on this project, I'll learn valuable skills I'll need to create beautiful and responsive websites. Also, maps are incredibly informative and helpful. Wouldn't you agree?
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="tracker" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title text-center" id="myModalLabel">Health Tracker</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive center-block" src="img/space2.jpg" alt="Health Tracker">
+            This is a placeholder for the Health Tracker project I will complete as a part of the Front-End Web Developer Nanodegree at Udacity. When I work on this project, I'll learn valuable skills I'll need to create beautiful and responsive websites. Impeccable health is one of the cornerstones of a long, happy life. Best to keep track of it!
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
