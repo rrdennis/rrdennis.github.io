@@ -2,28 +2,24 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ryan Dennis</title>
-    <script src="js/jquery-2.2.3.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Lato:300,100" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <div class="container">
-      <header>
-        <div class="row">
-          <div class="col-md-6">
-            <a href="mailto:rrdennis@gmail.com">
-              <img class="title-logo" src="img/mars.jpg" alt="logo">
-            </a>
-          </div>
-          <div class="col-md-6 text-right text-uppercase">
-            <h1 class="title-super text-thin">Ryan Dennis</h1>
-            <h4>Front-end Space Ninja</h4>
-          </div>
+      <header class="row">
+        <div class="col-md-6">
+          <a href="mailto:rrdennis@gmail.com">
+            <img class="title-logo" src="img/mars.jpg" alt="logo">
+          </a>
+        </div>
+        <div class="col-md-6 text-right text-uppercase">
+          <h1 class="title-super text-thin">Ryan Dennis</h1>
+          <h4>Front-end Space Ninja</h4>
         </div>
       </header>
       <div class="row">
@@ -31,52 +27,43 @@
           <hr>
         </div>
       </div>
-        <div class="row">
-          <div class="col-md-12">
-            <picture>
-              <source class="img-responsive main-img center-block" srcset="img/main411.jpg" media="(max-width: 411px)">
-              <source class="img-responsive main-img center-block" srcset="img/main768.jpg" media="(max-width: 768px)">
-              <img class="img-responsive main-img center-block" alt="main image" src="img/spacemain.jpg">
-            </picture>
-          </div>
+      <div class="row">
+        <div class="col-md-12">
+          <picture>
+            <source class="img-responsive main-img center-block" srcset="img/main411.jpg" media="(max-width: 411px)">
+            <source class="img-responsive main-img center-block" srcset="img/main768.jpg" media="(max-width: 768px)">
+            <img class="img-responsive main-img center-block" alt="main image" src="img/spacemain.jpg">
+          </picture>
         </div>
-      <section>
-        <div class="row">
-          <div class="col-md-12">
-            <h2 class="text-muted">Featured Work</h2>
-          </div>
+      </div>
+      <section class="row">
+        <div class="col-md-12">
+          <h2 class="text-muted">Featured Work</h2>
         </div>
-        <div class="row text-center">
-          <article>
-            <div class="col-md-4">
-              <img class="img-responsive center-block" src="img/space1.jpg" alt="Arcade Game" data-toggle="modal" data-target="#game">
-              <h3 class="text-uppercase">Arcade Game</h3>
-              <p><a href="https://rrdennis.github.io/game">https://rrdennis.github.io/game</a></p>
-            </div>
-          </article>
-          <article>
-            <div class="col-md-4">
-              <img class="img-responsive center-block" src="img/space.jpg" alt="Neighborhood Map" data-toggle="modal" data-target="#map">
-              <h3 class="text-uppercase">Neighborhood Map</h3>
-              <p><a href="https://rrdennis.github.io/map">https://rrdennis.github.io/map</a></p>
-            </div>
-          </article>
-          <article>
-            <div class="col-md-4">
-              <img class="img-responsive center-block" src="img/space2.jpg" alt="Health Tracker" data-toggle="modal" data-target="#tracker">
-              <h3 class="text-uppercase">Health Tracker</h3>
-              <p><a href="https://rrdennis.github.io/tracker">https://rrdennis.github.io/tracker</a></p>
-            </div>
-          </article>
-        </div>
+      </section>
+      <section class="row text-center">
+        <article class="col-md-4">
+          <img class="img-responsive center-block" src="img/space1.jpg" alt="Arcade Game" data-toggle="modal" data-target="#game">
+          <h3 class="text-uppercase">Arcade Game</h3>
+          <p><a href="https://rrdennis.github.io/game">https://rrdennis.github.io/game</a></p>
+        </article>
+        <article class="col-md-4">
+            <img class="img-responsive center-block" src="img/space.jpg" alt="Neighborhood Map" data-toggle="modal" data-target="#map">
+            <h3 class="text-uppercase">Neighborhood Map</h3>
+            <p><a href="https://rrdennis.github.io/map">https://rrdennis.github.io/map</a></p>
+        </article>
+        <article class="col-md-4">
+          <img class="img-responsive center-block" src="img/space2.jpg" alt="Health Tracker" data-toggle="modal" data-target="#tracker">
+          <h3 class="text-uppercase">Health Tracker</h3>
+          <p><a href="https://rrdennis.github.io/tracker">https://rrdennis.github.io/tracker</a></p>
+        </article>
       </section>
       <div class="row">
         <div class="col-md-12">
           <hr>
         </div>
       </div>
-      <footer>
-        <div class="row footer">
+      <footer class="row footer">
           <div class="col-md-12 text-center">
             <a href="https://github.com">
               <img class="footer-social" src="img/social-1_logo-github.svg" alt="github">
@@ -94,7 +81,6 @@
               <img class="footer-social" src="img/social-1_logo-facebook.svg" alt="facebook">
             </a>
           </div>
-        </div>
       </footer>
     </div>
     <div class="modal fade" id="game" tabindex="-1" role="dialog" aria-labelledby="arcade-label">
@@ -145,5 +131,7 @@
         </div>
       </div>
     </div>
+    <script src="js/jquery-2.2.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
